@@ -56,3 +56,9 @@ b = 2
 unless  a + b <= 0
   puts "計算結果は0より大きいです"
 end
+
+sum = 0
+10.times do |i|
+ sum += i + 1
+end
+puts sum
