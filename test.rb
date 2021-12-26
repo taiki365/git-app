@@ -88,4 +88,14 @@ def check_name(str)
 end
 puts "登録したい名前を入力してください(例)YamadaTaro"
 str = gets
-check_name(str) 
+check_name(str)
+
+input = gets.to_i
+
+if input <= 0
+  puts "0以下の数字です"
+elsif input <= 10
+  puts "10以下の数字です"
+else input > 10
+  puts "10より大きい数字です"
+end
