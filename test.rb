@@ -155,3 +155,7 @@ end
 
 # 呼び出し例
 missing_char('kitten', 1)
+
+def count_code(str)
+  puts str.index("code", 0) + 1
+end
