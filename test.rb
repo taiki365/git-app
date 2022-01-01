@@ -159,3 +159,14 @@ missing_char('kitten', 1)
 def count_code(str)
   puts str.index("code", 0) + 1
 end
+
+def parrot_trouble(talking, hour)
+  if talking && (hour < 7 || hour > 20)
+    puts "NG"
+  else
+    puts "OK"
+  end
+end
+
+# 呼び出し例
+parrot_trouble(true, 6)
