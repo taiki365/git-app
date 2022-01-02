@@ -178,3 +178,5 @@ def count_evens(nums)
       count += 1
     end     
   end
+  puts count
+end
