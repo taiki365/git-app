@@ -182,7 +182,9 @@ def count_evens(nums)
 end
 
 def array123(nums)
-  # 処理を記述
+  if nums.include?(1)
+  
+  end
 end
 
 # 呼び出し例
