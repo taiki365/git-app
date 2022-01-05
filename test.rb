@@ -206,3 +206,7 @@ def slice_num(num)
   # 1の位
   ones_place = num % 10
 end
+
+puts "二桁の整数を入力して下さい"
+input = gets.to_i
+
