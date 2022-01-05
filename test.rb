@@ -212,3 +212,4 @@ input = gets.to_i
 X, Y = slice_num(input)
 add_result = addition(X, Y)
 multiple_result = multiplication(X, Y)
+puts "足し算結果と掛け算結果の合計値は#{addition + multiplication}です"
