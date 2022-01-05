@@ -199,3 +199,10 @@ end
 def multiplication(a,b)
   a * b
 end
+
+def slice_num(num)
+  # 10の位
+  tens_place = (num / 10) % 10
+  # 1の位
+  ones_place = num % 10
+end
