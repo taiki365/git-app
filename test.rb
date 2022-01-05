@@ -196,3 +196,6 @@ def addition(a, b)
   a + b
 end
 
+def multiplication(a,b)
+  a * b
+end
