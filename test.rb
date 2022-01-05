@@ -205,6 +205,7 @@ def slice_num(num)
   tens_place = (num / 10) % 10
   # 1の位
   ones_place = num % 10
+  return tens_place, ones_place
 end
 
 puts "二桁の整数を入力して下さい"
