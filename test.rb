@@ -210,4 +210,5 @@ end
 puts "二桁の整数を入力して下さい"
 input = gets.to_i
 X, Y = slice_num(input)
-
+add_result = addition(X,Y)
+multiple_result = multiplication(X,Y)
