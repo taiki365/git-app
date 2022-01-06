@@ -217,7 +217,7 @@ puts "足し算結果と掛け算結果の合計値は#{add_result + multiple_re
 
 def extra_end(str)
   char_num = str.length
-  
+  teel2 = str.slice(char_num - 2, 2)
 end
 
 # 呼び出し例
