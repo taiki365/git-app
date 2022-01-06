@@ -214,3 +214,10 @@ X, Y = slice_num(input)
 add_result = addition(X, Y)
 multiple_result = multiplication(X, Y)
 puts "足し算結果と掛け算結果の合計値は#{add_result + multiple_result}です"
+
+def extra_end(str)
+  # 処理を記述
+end
+
+# 呼び出し例
+extra_end('Hello')
