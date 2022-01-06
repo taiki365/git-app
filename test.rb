@@ -217,6 +217,7 @@ puts "足し算結果と掛け算結果の合計値は#{add_result + multiple_re
 
 def extra_end(str)
   char_num = str.length
+  #文字列の後ろから2番目を取得
   teel2 = str.slice(char_num - 2, 2)
   puts right2 * 3
 end
