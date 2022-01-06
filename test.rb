@@ -216,7 +216,8 @@ multiple_result = multiplication(X, Y)
 puts "足し算結果と掛け算結果の合計値は#{add_result + multiple_result}です"
 
 def extra_end(str)
-  # 処理を記述
+  char_num = str.length
+  
 end
 
 # 呼び出し例
