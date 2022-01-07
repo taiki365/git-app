@@ -219,8 +219,16 @@ def extra_end(str)
   char_num = str.length
   #文字列の後ろから2番目を取得
   teel2 = str.slice(char_num - 2, 2)
-  puts right2 * 3
+  puts teel2 * 3
 end
 
 # 呼び出し例
 extra_end('Hello')
+
+def num(a, b, c)
+  # ここに条件式を実装する
+end
+
+# 呼び出し例
+num(1,5,3) 
+num(1,5,5)
