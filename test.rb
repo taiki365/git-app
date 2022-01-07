@@ -227,12 +227,7 @@ extra_end('Hello')
 
 #Rubyドリル23
 def num(a, b, c)
-  addition_number = a + b
-  if c <= 3
-    puts addition_number / c
-  elsif c >= 4
-    puts addition_number * c
-  end
+
 end
 
 # 呼び出し例
