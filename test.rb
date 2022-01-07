@@ -230,7 +230,8 @@ def num(a, b, c)
   addition_number = a + b
   if c <= 3
     puts addition_number / c
-
+  elsif c >= 4
+    puts addition_number * c
   end
 end
 
