@@ -226,7 +226,7 @@ end
 extra_end('Hello')
 
 def num(a, b, c)
-  # ここに条件式を実装する
+  addition_number = a + b
 end
 
 # 呼び出し例
