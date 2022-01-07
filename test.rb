@@ -225,6 +225,7 @@ end
 # 呼び出し例
 extra_end('Hello')
 
+#Rubyドリル23
 def num(a, b, c)
   addition_number = a + b
 end
