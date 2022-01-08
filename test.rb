@@ -129,6 +129,8 @@ fruits_price.each do |fruit|
   puts "#{fruit[0]}の合計金額は#{sum}円です"
 end
 
+
+#Rubyドリル11
 def in1to10(num, outside_mode)
   if (num >= 1 && num <= 10) || outside_mode
     puts "True"
