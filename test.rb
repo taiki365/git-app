@@ -228,7 +228,9 @@ extra_end('Hello')
 #Rubyドリル23
 def num(a, b, c)
   ab = a + b
-  
+  if c >= 3
+    
+  end
 end
 
 # 呼び出し例
