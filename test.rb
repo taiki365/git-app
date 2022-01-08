@@ -184,14 +184,17 @@ missing_char('kitten', 1)
 
 #Rubyドリル14
 def police_trouble(a, b)
-  if a && b
+  if (a && b) || (!a && !b)
     puts "True"
-  elsif a | | b
-    puts "false"
   else
-   puts "True"
+   puts "false"
   end
 end
+
+# 呼び出し例
+police_trouble(true, true) 
+police_trouble(false, false)
+police_trouble(true, false)
 
 
 #Rubyドリル16
