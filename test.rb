@@ -144,6 +144,8 @@ in1to10(5,false)
 in1to10(11,false)
 in1to10(11,true)
 
+
+#Rubyドリル12
 class Fruit
 
   def self.fresh
@@ -169,6 +171,8 @@ class Fruit
  orange.introduce
  strawberry.introduce
 
+
+ #Rubyドリル13
  def missing_char(str, n)
   str.slice!(n - 1)
   puts str
@@ -177,6 +181,20 @@ end
 # 呼び出し例
 missing_char('kitten', 1)
 
+
+#Rubyドリル14
+def police_trouble(a, b)
+  if a && b
+    puts "True"
+  elsif a | | b
+    puts "false"
+  else
+   puts "True"
+  end
+end
+
+
+#Rubyドリル16
 def count_code(str)
   puts str.index("code", 0) + 1
 end
