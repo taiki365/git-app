@@ -229,7 +229,8 @@ extra_end('Hello')
 def num(a, b, c)
   ab = a + b
   if c >= 3
-    
+    puts ab / c
+  
   end
 end
 
