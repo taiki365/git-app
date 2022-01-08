@@ -16,6 +16,8 @@ user_data.each do |u|
   puts u[:user][:profile][:name]
 end
 
+
+#Rubyドリル3
 class Article
 
   def initialize(author, title, content)
@@ -43,6 +45,8 @@ puts "著者: #{article.author}"
 puts "タイトル: #{article.title}"
 puts "本文: #{article.content}"
 
+
+#Rubyドリル4
 require "date"
 
 day = Date.today.wday
@@ -54,6 +58,8 @@ else
   puts "今日は#{days[day]}"
 end
 
+
+#Rubyドリル5
 a = 1
 b = 2
 unless  a + b <= 0
