@@ -227,7 +227,8 @@ extra_end('Hello')
 
 #Rubyドリル23
 def num(a, b, c)
-
+  ab = a + b
+  
 end
 
 # 呼び出し例
