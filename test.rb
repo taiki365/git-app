@@ -3,6 +3,8 @@ hash = { one:1, two:2, three:3}
 puts hash.keys
 puts hash.values
 
+
+#Rubyドリル2
 user_data = [
   {user: {profile: {name: 'George'}}},
   {user: {profile: {name: 'Alice'}}},
