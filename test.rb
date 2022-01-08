@@ -105,6 +105,8 @@ puts "登録したい名前を入力してください(例)YamadaTaro"
 str = gets
 check_name(str)
 
+
+#Rubyドリル9
 input = gets.to_i
 
 if input <= 0
