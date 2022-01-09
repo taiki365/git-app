@@ -250,6 +250,15 @@ end
 array123([1, 1, 2, 3, 1]
 
 
+#Rubyドリル20
+def sleep_in(is_weekday, is_vacation)
+  # ここに条件式を実装する
+end
+
+# 呼び出し例
+sleep_in(false, false)
+
+
 #Rubyドリル21
 def addition(a, b)
   a + b
