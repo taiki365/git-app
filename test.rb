@@ -254,8 +254,6 @@ array123([1, 1, 2, 3, 1]
 def sleep_in(is_weekday, is_vacation)
   if is_vacation == true
     puts true
-  elsif (is_weekday == true && is_vacation ==false)
-    puts false
   else
     puts false
   end
