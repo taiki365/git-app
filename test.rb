@@ -211,6 +211,8 @@ def count_code(str)
   puts str.index("code", 0) + 1
 end
 
+
+#Rubyドリル17
 def parrot_trouble(talking, hour)
   if talking && (hour < 7 || hour > 20)
     puts "NG"
@@ -222,6 +224,8 @@ end
 # 呼び出し例
 parrot_trouble(true, 6)
 
+
+#Rubyドリル1
 def count_evens(nums)
   count = 0
   nums.each do |num|
