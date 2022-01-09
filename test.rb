@@ -274,6 +274,8 @@ add_result = addition(X, Y)
 multiple_result = multiplication(X, Y)
 puts "足し算結果と掛け算結果の合計値は#{add_result + multiple_result}です"
 
+
+#Rubyドリル22
 def extra_end(str)
   char_num = str.length
   #文字列の後ろから2番目を取得
@@ -283,6 +285,7 @@ end
 
 # 呼び出し例
 extra_end('Hello')
+
 
 #Rubyドリル23
 def num(a, b, c)
