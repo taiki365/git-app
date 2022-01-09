@@ -199,7 +199,8 @@ police_trouble(true, false)
 
 #Rubyドリル15
 def count_hi(str)
-  #  処理を記述
+  num = str.scan("hi")
+  puts num
 end
 
 # 呼び出し例（引数には対象となる文字列を指定します）
