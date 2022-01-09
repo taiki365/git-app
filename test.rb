@@ -197,6 +197,10 @@ police_trouble(false, false)
 police_trouble(true, false)
 
 
+#Rubyドリル15
+
+
+
 #Rubyドリル16
 def count_code(str)
   puts str.index("code", 0) + 1
