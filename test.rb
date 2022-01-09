@@ -249,6 +249,8 @@ end
 # 呼び出し例
 array123([1, 1, 2, 3, 1]
 
+
+#Rubyドリル21
 def addition(a, b)
   a + b
 end
