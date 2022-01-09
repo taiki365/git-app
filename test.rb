@@ -252,7 +252,7 @@ array123([1, 1, 2, 3, 1]
 
 #Rubyドリル20
 def sleep_in(is_weekday, is_vacation)
-  if is_weekday != true
+  if (is_weekday != true) || (is_vacation == true)
     puts true
   else
     puts false
