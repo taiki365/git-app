@@ -252,7 +252,13 @@ array123([1, 1, 2, 3, 1]
 
 #Rubyドリル20
 def sleep_in(is_weekday, is_vacation)
-  # ここに条件式を実装する
+  if is_vacation == true
+    puts true
+  elsif (is_weekday == true && is_vacation ==false)
+    puts false
+  else
+    puts false
+  end
 end
 
 # 呼び出し例
