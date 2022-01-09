@@ -225,7 +225,7 @@ end
 parrot_trouble(true, 6)
 
 
-#Rubyドリル1
+#Rubyドリル18
 def count_evens(nums)
   count = 0
   nums.each do |num|
