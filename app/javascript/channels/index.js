@@ -9,4 +9,10 @@ player = "バース";
 let number = 2;
 number = 5;
 console.log(number);
-number += 5
+number += 3
+console.log(number);
+if (number > 5) {
+  console.log("numberは5より大きい");
+}
+const oddNumber = 200;
+
