@@ -323,6 +323,6 @@ def calculate_points(amount, is_birthday)
     point = (amount * 0.05).floor
   end
   if is_birthday
-    
+    point = point * 5
   end
 end
