@@ -325,4 +325,5 @@ def calculate_points(amount, is_birthday)
   if is_birthday
     point = point * 5
   end
+  puts "ポイントは#{point.floor}点です"
 end
