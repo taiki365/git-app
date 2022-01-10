@@ -318,7 +318,7 @@ num(1,5,5)
 #Rubyドリル24
 def calculate_points(amount, is_birthday)
   if amount >= 999
-    point = (amount * 0.03).floor
+    point = (amount * 0.03)
   else
     point = (amount * 0.05).floor
   end
