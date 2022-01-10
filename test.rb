@@ -316,3 +316,8 @@ num(1,5,5)
 
 
 #Rubyドリル24
+def calculate_points(amount, is_birthday)
+
+
+
+end
