@@ -15,4 +15,6 @@ if (number > 5) {
   console.log("numberは5より大きい");
 }
 const oddNumber = 200;
+console.log(oddNumber === 200);
+
 
