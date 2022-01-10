@@ -320,7 +320,7 @@ def calculate_points(amount, is_birthday)
   if amount >= 999
     point = (amount * 0.03).floor
   else
-    
+    point = (amount * 0.05).floor
   end
 
 
