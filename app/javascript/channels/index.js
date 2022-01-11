@@ -20,3 +20,8 @@ if (oddNumber === 200){
 }
 
 let addNumber = 10;
+if (addNumber > 20) {
+  console.log("numberは20より大きい");
+} else{
+  
+}
