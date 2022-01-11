@@ -334,9 +334,12 @@ def fizz_buzz
   i = 1
   while i <= 100 do
     i += 1
-    if i % 3 == 0
-      puts
-  end
+    if i % 15 == 0
+      puts "FizzBuzz"
+    elsif i % 3 == 0
+      puts "Fizz"
+   
+    end
 end
 
 fizz_buzz
