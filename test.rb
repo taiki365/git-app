@@ -331,7 +331,8 @@ end
 
 #Rubyドリル25
 def fizz_buzz
-  # ここに処理を書き加えてください
+  i = 1
+  if 
 end
 
 fizz_buzz
