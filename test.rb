@@ -343,7 +343,7 @@ def fizz_buzz
     else
       puts i
     end
-  
+  end
 end
 
 fizz_buzz
