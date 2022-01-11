@@ -332,7 +332,10 @@ end
 #Rubyドリル25
 def fizz_buzz
   i = 1
-  if 
+  while i == 100
+    i 
+    if i %
+  end
 end
 
 fizz_buzz
