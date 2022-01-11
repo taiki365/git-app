@@ -18,3 +18,5 @@ const oddNumber = 200;
 if (oddNumber === 200){
   console.log("oddNumberは200です");
 }
+
+let addNumber = 10;
