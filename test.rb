@@ -327,3 +327,6 @@ def calculate_points(amount, is_birthday)
   end
   puts "ポイントは#{point.floor}点です"
 end
+
+
+#Rubyドリル25
