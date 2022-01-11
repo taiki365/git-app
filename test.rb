@@ -333,7 +333,6 @@ end
 def fizz_buzz
   i = 1
   while i <= 100 do
-    i += 1
     if i % 15 == 0
       puts "FizzBuzz"
     elsif i % 3 == 0
@@ -343,6 +342,8 @@ def fizz_buzz
     else
       puts i
     end
+
+    i += 1
   end
 end
 
