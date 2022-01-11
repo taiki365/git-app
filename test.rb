@@ -332,7 +332,7 @@ end
 #Rubyドリル25
 def fizz_buzz
   i = 1
-  while i <= 100
+  while i <= 100 do
     i += 1
     if i % 3 == 0
       puts
