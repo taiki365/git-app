@@ -30,5 +30,5 @@ if (addNumber > 20) {
 
 const age = 22;
 if (age >= 20){
-  
+  console.log("私は20代です")
 }
