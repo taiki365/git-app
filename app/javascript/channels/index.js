@@ -25,5 +25,5 @@ if (addNumber > 20) {
 } else if(addNumber > 5){
   console.log("addNumberは5より大きい");
 } else{
-  console.log("addNumberは5以下")
+  console.log("addNumberは5以下");
 }
