@@ -29,6 +29,6 @@ if (addNumber > 20) {
 }
 
 const age = 22;
-if {
+if (age >= 20){
   
 }
