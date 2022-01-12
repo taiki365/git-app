@@ -354,6 +354,8 @@ fizz_buzz
 def end_other(a, b)
   a_down = a.downcase
   b_down = b.downcase
+  a_len = a_down.length
+  b_len
   
   if b_down.slice() == a_down || a_down.slice() == b_down
     puts "True"
