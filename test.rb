@@ -367,3 +367,4 @@ end
 end_other('Hiabc', 'abc')
 
 
+#Rubyドリル27
