@@ -355,7 +355,7 @@ def end_other(a, b)
   a_down = a.downcase
   b_down = b.downcase
   
-  if b_down.slice() == a_down || a_down.slice()
+  if b_down.slice() == a_down || a_down.slice() == b_down
     puts "True"
   else
     puts "False"
