@@ -353,6 +353,7 @@ fizz_buzz
 #Rubyドリル26
 def end_other(a, b)
   a_down = a.downcase
+  b_down = b.downcase
   if 
     puts "True"
   else
