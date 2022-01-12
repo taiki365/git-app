@@ -352,7 +352,11 @@ fizz_buzz
 
 #Rubyドリル26
 def end_other(a, b)
-  # 処理を記述
+  if 
+    puts
+  else
+
+  end
 end
 
 # 呼び出し例
