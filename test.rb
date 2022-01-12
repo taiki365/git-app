@@ -351,3 +351,9 @@ fizz_buzz
 
 
 #Rubyドリル26
+def end_other(a, b)
+  # 処理を記述
+end
+
+# 呼び出し例
+end_other('Hiabc', 'abc')
