@@ -23,7 +23,7 @@ let addNumber = 10;
 if (addNumber > 20) {
   console.log("addNumberは20より大きい");
 } else if(addNumber > 5){
-  console.log()
+  console.log("addNumberは5より大きい");
 } else{
   console.log("addNumberは5以下")
 }
