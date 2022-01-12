@@ -355,7 +355,7 @@ def end_other(a, b)
   if 
     puts "True"
   else
-    puts
+    puts "False"
   end
 end
 
