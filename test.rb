@@ -353,9 +353,9 @@ fizz_buzz
 #Rubyドリル26
 def end_other(a, b)
   if 
-    puts
+    puts "True"
   else
-
+    puts
   end
 end
 
