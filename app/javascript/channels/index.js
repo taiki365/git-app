@@ -27,3 +27,5 @@ if (addNumber > 20) {
 } else{
   console.log("addNumberは5以下");
 }
+
+const age = 22;
