@@ -368,3 +368,6 @@ end_other('Hiabc', 'abc')
 
 
 #Rubyドリル27
+def near_ten(num)
+
+end
