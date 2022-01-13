@@ -369,7 +369,8 @@ end_other('Hiabc', 'abc')
 
 #Rubyドリル27
 def near_ten(num)
-  if 
+  remainder = num % 10
+  if num 
     puts "True"
   else
     puts "False"
