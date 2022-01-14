@@ -32,3 +32,5 @@ const age = 22;
 if (age >= 20 && age < 30){
   console.log("私は20代です");
 }
+
+const rank = 2;
