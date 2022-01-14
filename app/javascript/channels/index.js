@@ -37,4 +37,5 @@ const rank = 2;
 
 switch(rank){
   case 1:
+    console.log("金メダルです!");
 }
