@@ -44,5 +44,5 @@ switch(rank){
     break;
   case 3:
     console.log("銅メダルです!");
-    
+    break;
 }
