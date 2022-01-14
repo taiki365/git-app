@@ -34,3 +34,7 @@ if (age >= 20 && age < 30){
 }
 
 const rank = 2;
+
+switch(rank){
+  case 1:
+}
