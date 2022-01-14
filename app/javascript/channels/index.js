@@ -39,5 +39,7 @@ switch(rank){
   case 1:
     console.log("金メダルです!");
     break;
-  case 2;
+  case 2:
+    console.log("銀メダルです!");
+    
 }
