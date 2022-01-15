@@ -381,8 +381,10 @@ end
 #Rubyドリル28
 def withdraw(balance, amount)
   fee = 110  # 手数料
-  if
-    
+  if amount >= (balance + fee)
+    puts
+  elsif
+
   end
 end
 
