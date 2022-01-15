@@ -50,5 +50,5 @@ switch(rank){
 
   default:
     console.log("メダルはありません!");
-    
+    break;
 }
