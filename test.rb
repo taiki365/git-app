@@ -382,6 +382,7 @@ end
 def withdraw(balance, amount)
   fee = 110  # 手数料
   if amount >= (balance + fee)
+    balance -= (amount + fee)
     puts "#{amount}円引き落としました。残高は#{balance - amount - fee}円です"
   elsif
 
