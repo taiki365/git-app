@@ -381,7 +381,9 @@ end
 #Rubyドリル28
 def withdraw(balance, amount)
   fee = 110  # 手数料
-# 引き落とし額と残高を表示する、もしくは残高より多く引き落としたら残高不足と表示
+  if
+    
+  end
 end
 
 balance = 100000  # 残高
