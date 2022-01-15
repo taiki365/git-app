@@ -381,9 +381,9 @@ end
 #Rubyドリル28
 def withdraw(balance, amount)
   fee = 110  # 手数料
-  if amount >= (balance + fee)
+  if balance >= (amount + fee)
     balance -= (amount + fee)
-    puts "#{amount}円引き落としました。残高は#{balance - amount - fee}円です"
+    puts "#{amount}円引き落としました。残高は#{balance}円です"
   elsif
 
   end
