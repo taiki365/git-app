@@ -49,4 +49,6 @@ switch(rank){
     break;
 
   default:
+    console.log("メダルはありません!");
+    
 }
