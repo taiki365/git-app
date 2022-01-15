@@ -393,3 +393,5 @@ balance = 100000  # 残高
 puts "いくら引き落としますか？（手数料110円かかります）"
 amount = gets.to_i
 withdraw(balance, amount)
+
+
