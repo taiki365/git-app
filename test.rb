@@ -385,7 +385,7 @@ def withdraw(balance, amount)
     balance -= (amount + fee)
     puts "#{amount}円引き落としました。残高は#{balance}円です"
   elsif
-
+    puts "残高不足です"
   end
 end
 
