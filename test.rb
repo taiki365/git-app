@@ -376,3 +376,5 @@ def near_ten(num)
     puts "False"
   end
 end
+
+
