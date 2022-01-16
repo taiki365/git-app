@@ -395,3 +395,4 @@ amount = gets.to_i
 withdraw(balance, amount)
 
 
+#Rubyドリル29
