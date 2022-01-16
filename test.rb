@@ -9,7 +9,7 @@ user_data = [
   {user: {profile: {name: 'George'}}},
   {user: {profile: {name: 'Alice'}}},
   {user: {profile: {name: 'Taro'}}},
- ]
+]
 
 # 二重ハッシュの場合はキーを連続して指定する
 user_data.each do |u|
@@ -70,7 +70,7 @@ end
 #Rubyドリル6
 sum = 0
 10.times do |i|
- sum += i + 1
+sum += i + 1
 end
 puts sum
 
@@ -151,29 +151,29 @@ class Fruit
   def self.fresh
     puts "採れたて新鮮な果実です"
   end
- 
+
   def initialize(name, price)
     @name = name
     @price = price
   end
- 
+
   def introduce
     puts "#{@name}は#{@price}円です"
   end
- end
- 
- apple = Fruit.new("リンゴ", 120)
- orange = Fruit.new("オレンジ", 200)
- strawberry = Fruit.new("イチゴ", 60)
- 
- Fruit.fresh
- apple.introduce
- orange.introduce
- strawberry.introduce
+end
+
+apple = Fruit.new("リンゴ", 120)
+orange = Fruit.new("オレンジ", 200)
+strawberry = Fruit.new("イチゴ", 60)
+
+Fruit.fresh
+apple.introduce
+orange.introduce
+strawberry.introduce
 
 
- #Rubyドリル13
- def missing_char(str, n)
+#Rubyドリル13
+def missing_char(str, n)
   str.slice!(n - 1)
   puts str
 end
@@ -187,7 +187,7 @@ def police_trouble(a, b)
   if (a && b) || (!a && !b)
     puts "True"
   else
-   puts "false"
+    puts "false"
   end
 end
 
