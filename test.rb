@@ -410,6 +410,10 @@ def lone_sum(ary)
       uniq_nums << num
     end
   end
+
+  # nuiq_nums配列内の合計
+  sum = 0
+  puts sum
 end
 
 # 呼び出し例
