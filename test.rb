@@ -399,7 +399,9 @@ withdraw(balance, amount)
 def lone_sum(ary)
   uniq_nums = []
   ary.each do |num|
-    
+    count = 0
+    ary.each do |i|
+    end
     if
   end
 end
