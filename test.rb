@@ -397,8 +397,11 @@ withdraw(balance, amount)
 
 #Rubyドリル29
 def lone_sum(ary)
-  num = []
-  if 
+  uniq_nums = []
+  ary.each do |num|
+    
+    if
+  end
 end
 
 # 呼び出し例
