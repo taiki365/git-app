@@ -401,8 +401,10 @@ def lone_sum(ary)
   ary.each do |num|
     count = 0
     ary.each do |i|
+      if num == i
+        count += 1
+      end
     end
-    if
   end
 end
 
