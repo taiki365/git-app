@@ -413,6 +413,9 @@ def lone_sum(ary)
 
   # nuiq_nums配列内の合計
   sum = 0
+  uniq_nums.each do |uniq_num|
+    sum += uniq_num
+  end
   puts sum
 end
 
