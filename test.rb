@@ -397,7 +397,8 @@ withdraw(balance, amount)
 
 #Rubyドリル29
 def lone_sum(ary)
-  # 処理を記述
+  num = []
+  if 
 end
 
 # 呼び出し例
