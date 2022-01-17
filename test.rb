@@ -428,4 +428,6 @@ def binary_search(array, right, target)
   left = 0
   while left <= right
     
+  end
+  return -1
 end
