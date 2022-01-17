@@ -427,6 +427,7 @@ lone_sum([1, 2, 3])
 def binary_search(array, right, target)
   left = 0
   while left <= right
+    center = (left + right) / 2
     
   end
   return -1
