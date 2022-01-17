@@ -424,3 +424,8 @@ lone_sum([1, 2, 3])
 
 
 #Rubyドリル30
+def binary_search(array, right, target)
+  left = 0
+  while left <= right
+    
+end
