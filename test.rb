@@ -438,3 +438,6 @@ def binary_search(array, right, target)
   end
   return -1
 end
+
+array=[1,3,5,6,9,10,13,20,26,31]
+
