@@ -433,7 +433,7 @@ def binary_search(array, right, target)
     elsif array[center] < target
       left = center + 1
     else
-
+      right = center - 1
     end
   end
   return -1
