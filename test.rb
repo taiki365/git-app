@@ -450,4 +450,5 @@ result = binary_search(array, number_of_elements, target)
 if result == -1
   puts "#{target}は配列内に存在しません"
 else
-  
+  puts "#{target}は配列の#{result}番目に存在します"
+end
