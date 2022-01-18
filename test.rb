@@ -429,7 +429,8 @@ def binary_search(array, right, target)
   while left <= right
     center = (left + right) / 2
     if array[center] == target
-    elsif
+      return center
+    elsif array[center]
       
     else
 
