@@ -442,3 +442,6 @@ end
 array=[1,3,5,6,9,10,13,20,26,31]
 
 puts "検索したい数字を入力してください"
+target = gets.to_i
+number_of_elements = array.length
+
