@@ -455,3 +455,6 @@ end
 
 
 #Rubyドリル31
+def near_ten(num)
+
+end
