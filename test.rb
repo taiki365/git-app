@@ -452,3 +452,6 @@ if result == -1
 else
   puts "#{target}は配列の#{result}番目に存在します"
 end
+
+
+#Rubyドリル31
