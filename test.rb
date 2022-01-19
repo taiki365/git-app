@@ -458,7 +458,7 @@ end
 def near_ten(num)
   if 
     puts "True"
-    
+  else
     puts "10の倍数との差は○です"
   end
 end
