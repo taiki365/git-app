@@ -457,4 +457,5 @@ end
 #Rubyドリル31
 def near_ten(num)
 
+  puts "10の倍数との差は○です"
 end
