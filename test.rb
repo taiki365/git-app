@@ -466,3 +466,6 @@ def near_ten(num)
     puts "10の倍数との差は#{10 - remainder}です"
   end
 end
+
+
+#Rubyドリル32
