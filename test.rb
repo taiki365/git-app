@@ -457,6 +457,7 @@ end
 #Rubyドリル31
 def near_ten(num)
   total = (num/100) + (num/10 % 10) + (num % 10)
+  remainder = total % 10
   if 
     puts "True"
   else
