@@ -456,6 +456,7 @@ end
 
 #Rubyドリル31
 def near_ten(num)
+  #100の位、10の位、1の位をそれぞれ足す
   total = (num/100) + (num/10 % 10) + (num % 10)
   remainder = total % 10
   if remainder <= 2 || remainder >= 8
