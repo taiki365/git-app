@@ -460,6 +460,7 @@ def near_ten(num)
   remainder = total % 10
   if remainder <= 2 || remainder >= 8
     puts "True"
+  elsif remainder <= 5
   else
     puts "10の倍数との差は○です"
   end
