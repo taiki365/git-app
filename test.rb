@@ -458,6 +458,7 @@ end
 def near_ten(num)
   #100の位、10の位、1の位をそれぞれ足す
   total = (num/100) + (num/10 % 10) + (num % 10)
+  #3つの数の和の1の位を出す
   remainder = total % 10
   if remainder <= 2 || remainder >= 8
     puts "True"
