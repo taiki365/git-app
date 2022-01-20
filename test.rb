@@ -463,6 +463,6 @@ def near_ten(num)
   elsif remainder <= 5
     puts "10の倍数とに差は#{remainder}です"
   else
-    puts "10の倍数との差は○です"
+    puts "10の倍数との差は#{10 - remainder}です"
   end
 end
