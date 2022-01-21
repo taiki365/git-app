@@ -486,3 +486,5 @@ end
 
 # 呼び出し例
 xyz_there('abcxyz')
+
+
