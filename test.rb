@@ -488,3 +488,4 @@ end
 xyz_there('abcxyz')
 
 
+#Rubyドリル33
