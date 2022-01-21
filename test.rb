@@ -472,3 +472,9 @@ end
 
 
 #Rubyドリル32
+def xyz_there(str)
+  # 処理を記述
+end
+
+# 呼び出し例
+xyz_there('abcxyz')
