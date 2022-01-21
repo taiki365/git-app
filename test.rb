@@ -474,6 +474,8 @@ end
 #Rubyドリル32
 def xyz_there(str)
   if
+    puts "False"
+  elsif
     puts "True"
   else
   end
