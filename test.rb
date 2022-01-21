@@ -473,6 +473,7 @@ end
 
 #Rubyドリル32
 def xyz_there(str)
+  #.include?()とすることで()の中の文字が含まれているか判定出来る
   if str.include?(".xyz")
     puts "False"
   elsif str.include?("xyz")
