@@ -480,7 +480,6 @@ def xyz_there(str)
   else
     puts "False"
   end
-
 end
 
 # 呼び出し例
