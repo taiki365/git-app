@@ -473,7 +473,11 @@ end
 
 #Rubyドリル32
 def xyz_there(str)
-  # 処理を記述
+  if
+    puts "True"
+  else
+  end
+
 end
 
 # 呼び出し例
