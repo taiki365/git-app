@@ -473,9 +473,9 @@ end
 
 #Rubyドリル32
 def xyz_there(str)
-  if
+  if str.include?(".xyz")
     puts "False"
-  elsif
+  elsif str 
     puts "True"
   else
     puts "False"
