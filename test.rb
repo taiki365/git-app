@@ -491,7 +491,8 @@ xyz_there('abcxyz')
 #Rubyドリル33
 def get_days(year, month)
   month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-  # ここに処理を書き加えてください
+  if month == 2
+  end
 end
 
 puts "年を入力してください："
