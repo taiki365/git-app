@@ -492,6 +492,8 @@ xyz_there('abcxyz')
 def get_days(year, month)
   month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
   if month == 2
+  else
+    dyas == month_days[month - 1]
   end
 end
 
