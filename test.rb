@@ -504,6 +504,8 @@ def get_days(year, month)
   else
     dyas == month_days[month - 1]
   end
+
+  return days
 end
 
 puts "年を入力してください:"
