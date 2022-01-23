@@ -506,9 +506,9 @@ def get_days(year, month)
   end
 end
 
-puts "年を入力してください："
+puts "年を入力してください:"
 year = gets.to_i
-puts "月を入力してください："
+puts "月を入力してください:"
 month = gets.to_i
 
 days = get_days(year, month)
