@@ -494,6 +494,7 @@ def get_days(year, month)
   if month == 2
     if year % 4 == 0
     else
+      days = 28
     end
   else
     dyas == month_days[month - 1]
