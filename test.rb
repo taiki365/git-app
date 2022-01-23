@@ -494,6 +494,7 @@ def get_days(year, month)
   if month == 2
     if year % 4 == 0
       if year % 100 == 0 && year % 400 != 0
+        days = 28
       end
     else
       days = 28
