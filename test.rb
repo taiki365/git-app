@@ -517,3 +517,4 @@ days = get_days(year, month)
 puts "#{year}年#{month}月は#{days}日間あります"
 
 
+#Rubyドリル34
