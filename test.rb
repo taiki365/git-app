@@ -518,3 +518,7 @@ puts "#{year}年#{month}月は#{days}日間あります"
 
 
 #Rubyドリル34
+def judge (a,b,c)
+
+
+end
