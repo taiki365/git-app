@@ -519,6 +519,8 @@ puts "#{year}年#{month}月は#{days}日間あります"
 
 #Rubyドリル34
 def judge (a,b,c)
-
+  x = (a-b).abs
+  y = (a-c).abs
+  z = (b-c).abs
 
 end
