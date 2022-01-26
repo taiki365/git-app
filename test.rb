@@ -525,5 +525,9 @@ def judge (a,b,c)
 
   if x == 1 && z >= 2
     puts "True"
+  elsif y == 1 && z >= 2
+    puts "True"
+  else
+    puts "False"
   end
 end
