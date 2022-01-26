@@ -523,4 +523,6 @@ def judge (a,b,c)
   y = (a-c).abs
   z = (b-c).abs
 
+  if
+  end
 end
