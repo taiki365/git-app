@@ -523,6 +523,6 @@ def judge (a,b,c)
   y = (a-c).abs
   z = (b-c).abs
 
-  if
+  if x == 1 && z >= 2
   end
 end
