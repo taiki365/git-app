@@ -524,5 +524,6 @@ def judge (a,b,c)
   z = (b-c).abs
 
   if x == 1 && z >= 2
+    puts "True"
   end
 end
