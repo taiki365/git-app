@@ -531,3 +531,6 @@ def judge (a,b,c)
     puts "False"
   end
 end
+
+
+#Rubyドリル35
